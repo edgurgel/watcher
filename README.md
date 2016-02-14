@@ -1,6 +1,6 @@
 # Watcher
 
-[![Build Status](https://travis-ci.org/edgurgel/watcher.svg?branch=master)](https://travis-ci.org/edgurgel/watcher) [![Hex.pm](https://img.shields.io/hexpm/v/watcher.svg?style=flat-square)](https://hex.pm/packages/watcher)
+[![Build Status](https://travis-ci.org/edgurgel/watcher.svg?branch=master)](https://travis-ci.org/edgurgel/watcher) [![Hex.pm](https://img.shields.io/hexpm/v/watcher.svg?style=flat-square)](https://hex.pm/packages/watcher) [![Coverage Status](https://coveralls.io/repos/github/edgurgel/watcher/badge.svg?branch=master)](https://coveralls.io/github/edgurgel/watcher?branch=master)
 
 Watcher will monitor a GenEvent manager and a handler. If any of them die the watcher will stop.
 
