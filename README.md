@@ -6,6 +6,10 @@ Watcher will monitor a GenEvent manager and a handler. If any of them die the wa
 
 If added on a supervision tree the watcher will restart, add the handler and keep processing events.
 
+## Why?
+
+https://github.com/elixir-lang/elixir/issues/2662
+
 ## Installation
 
 First, add Watcher to your mix.exs dependencies:
