@@ -13,7 +13,6 @@ defmodule Watcher do
 
   require Logger
   use GenServer
-  @name Logger.Watcher
 
   @doc """
   Starts and links the watcher.

@@ -7,12 +7,12 @@ defmodule Watcher.Mixfile do
 
   def project do
     [app: :watcher,
-     version: "1.0.0",
+     version: "1.1.0",
      elixir: "~> 1.1",
      name: "Watcher",
      description: @description,
-     package: package,
-     deps: deps,
+     package: package(),
+     deps: deps(),
      docs: [main: "Watcher", readme: "README.md",
             source_url: "https://github.com/edgurgel/watcher"],
      test_coverage: [tool: Coverex.Task, coveralls: true],
