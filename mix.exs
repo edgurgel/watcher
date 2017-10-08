@@ -26,8 +26,9 @@ defmodule Watcher.Mixfile do
 
   defp deps do
      [{ :coverex, "~> 1.4.7", only: :test },
-      { :earmark, "~> 0.1.17", only: :dev },
-      { :ex_doc, "~> 0.8.0", only: :dev }]
+
+      { :earmark, "~> 1.0", only: :dev },
+      { :ex_doc, "~> 0.14", only: :dev }]
   end
 
   defp package do
